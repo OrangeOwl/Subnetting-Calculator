@@ -65,7 +65,7 @@ function subnetResults(ipArray, subnetMask) {
                           "<tr><td>IP Host</td><td>" + ipArray[0] + "." + ipArray[1] + "." + ipArray[2] + "." + ipArray[3] + "</td>" +
                           "<tr><td>Subnet Mask</td><td>" + subnet +"</td></tr>" +
                           "<tr><td>Wildcard Mask</td><td>" + wildcard +"</td></tr>" +
-                          "<tr><td>Number of Usable Hosts</td><td>" + hosts +"</td></tr>" +
+                          "<tr><td>Number of Usable Hosts</td><td>" + hosts +"</td></tr>" +  //future version to be setup to calculate gateway/network address and broadcast address
                           "</table>";
   document.body.appendChild(subnetTable); //append div to body
 }
