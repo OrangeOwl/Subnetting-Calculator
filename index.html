@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Subnet Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+  </head>
+  <body>
+    <div class="header">
+     <h1>IPv4 Subnet Calculator</h1>
+    </div>
+    <!--Div and form for Subnet specifications-->
+    <hr>
+    <div id="div-form">
+      <form id="ipform" method="post">
+        <!--Subnet mask choice-->
+        <label for="ip-address"> Enter the Desired Host Network </label>
+        <label for="subnet-mask">and Subnet Mask</label><br>
+        <input type="text" id="ip-address-1" class="ip-address" name="ip-address">
+        <span>.</span>
+        <input type="text" id="ip-address-2" class="ip-address" name="ip-address">
+        <span>.</span>        
+        <input type="text" id="ip-address-3" class="ip-address" name="ip-address">
+        <span>.</span>        
+        <input type="text" id="ip-address-4" class="ip-address" name="ip-address">
+        <select id="subnet-mask" name="subnet-mask">
+          <option value="32">/32</option>
+          <option value="31">/31</option>
+          <option value="30">/30</option>
+          <option value="29">/29</option>
+          <option value="28">/28</option>
+          <option value="27">/27</option>
+          <option value="26">/26</option>
+          <option value="25">/25</option>
+          <option value="24">/24</option>
+          <option value="23">/23</option>
+          <option value="22">/22</option>
+          <option value="21">/21</option>
+          <option value="20">/20</option>
+          <option value="19">/19</option>
+          <option value="18">/18</option>
+          <option value="17">/17</option>
+          <option value="16">/16</option>
+          <option value="15">/15</option>
+          <option value="14">/14</option>
+          <option value="13">/13</option>
+          <option value="12">/12</option>
+          <option value="11">/11</option>
+          <option value="10">/10</option>
+          <option value="09">/9</option>
+          <option value="08">/8</option>
+          <option value="07">/7</option>
+          <option value="06">/6</option>
+          <option value="05">/5</option>
+          <option value="04">/4</option>
+          <option value="03">/3</option>
+          <option value="02">/2</option>
+          <option value="01">/1</option>
+        </select><br>
+        <input type="submit" id="submit" value="SUBNET THAT SHIT" class="SUBMIT">
+      </form>
+      <hr>
+     </div> 
+   <!--Show Results here-->
+  </body>
+</html>

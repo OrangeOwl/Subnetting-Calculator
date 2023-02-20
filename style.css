@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    font: bold 1em Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    background-color: turquoise;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main-section {
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bungee', cursive;
+}
+
+br, form>input {
+    margin-top: 20px;
+}
+
+select {
+    border: none;
+    padding: 5px;
+    margin: 0px;
+}
+
+select:hover {
+    background-color: turquoise;
+}
+
+.ip-address {
+    border: 2px 2px turquoise;
+    padding: 5px;
+    size: 2%;
+    width: 50px;
+}
+
+.subnetTable {
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid turquoise;
+}
+
+th {
+    background-color: turquoise;
+}
+
+.SUBMIT {
+    border: none;
+    padding: 5px;
+}
+
+.SUBMIT:hover {
+    background-color: turquoise;
+}
+
+hr {
+    width: 20%;
+}
